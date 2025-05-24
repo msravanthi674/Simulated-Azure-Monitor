@@ -1,2 +1,13 @@
-# Simulated-Azure-Monitor
-A lightweight, local observability stack inspired by Azure Monitor — using Flask, Prometheus, and Grafana. This project helps you learn core cloud monitoring concepts like metrics collection, dashboarding, alerting, and webhook triggers, all running on your own machine.
+# Simulated Azure Monitor
+
+A full local monitoring stack inspired by Azure Monitor using:
+
+- Python (Flask) for app + telemetry
+- Prometheus for metrics
+- Grafana for dashboards + alerting
+- Flask Webhook receiver (simulates Azure action groups)
+
+## Run Locally
+
+```bash
+docker-compose up --build
